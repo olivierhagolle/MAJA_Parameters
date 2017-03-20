@@ -7,7 +7,7 @@ This file provides a description of MAJA main parameters, which a user might wan
 ```<!-- Maximum percentage of cloudy pixels for the product to be considered as valid (in percentage) -->
 <Max_Cloud_Percentage>90</Max_Cloud_Percentage>```
 
-If the cloud percentage within the image (No_data excluded), the output product is declared NotValid and not produced. We have seen that in general, with this percentage of clouds, the remaining pixels might be wrongly detected. If you want to remove this feature, just ser the parameter to 100%.
+If the cloud percentage within the image (No_data excluded) is above that threshold, the output product is declared NotValid and not produced. We have seen that in general, with this percentage of clouds, the remaining pixels might be wrongly detected. If you want to remove this feature, just ser the parameter to 100%.
 
 
 ```<!-- Blue band code identifier -->
