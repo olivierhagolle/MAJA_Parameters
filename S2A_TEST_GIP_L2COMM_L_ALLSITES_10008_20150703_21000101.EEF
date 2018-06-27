@@ -163,7 +163,7 @@
 			<SE_Snow_Radius>1</SE_Snow_Radius>
 			<!--  Threshold on surface reflectance in the blue band -->
 			<NDSI_Threshold>0.4</NDSI_Threshold>
-			<!--  Threshold on the resd band surface reflectance absolute value -->
+			<!--  Threshold on the red band surface reflectance absolute value -->
 			<Red_Reflectance_Threshold>0.12</Red_Reflectance_Threshold>
 			<!--  Threshold on the SWIR1 band surface reflectance absolute value -->
 			<SWIR1_Reflectance_Threshold>0.16</SWIR1_Reflectance_Threshold>
